@@ -26,14 +26,23 @@ Skills: Web Scrapping, Prompt Engineering, Streamlit, Matplotlib
 ## 🗂️ Project Structure
 
 restaurant-review-analyzer/
+
 |
+
 |-- Dashboard.py # Landing page with sidebar navigation
+
 |-- pages
+
     |-- 1_Reviews_Dashboard.py # Single restaurant review dashboard
+    
     |-- 2_Competitor_Analysis_Dashboard.py # Compare two restaurants
+    
 |-- util.py # Core logic: scraping, prompting, formatting
-|-- requirements.txt # (You generate this using pip freeze)
+
+|-- requirements.txt 
+
 |-- LICENSE
+
 |-- README.md # Project instructions (you are here)
 
 ---
@@ -46,19 +55,19 @@ git clone https://github.com/RJ601/OpenTable-Sentiment-Analysis.git
 
 cd OpenTable-Sentiment-Analysis
 
-🧪 2. Create a Virtual Environment (optional but recommended)
+### 🧪 2. Create a Virtual Environment (optional but recommended)
 
 python -m venv env
 
 source env/bin/activate  # On Windows: env\Scripts\activate
 
-📦 3. Install Dependencies
+### 📦 3. Install Dependencies
 
 Install the required packages using:
 
 pip install -r requirements.txt
 
-🔑 4. Set Up Groq API Key
+### 🔑 4. Set Up Groq API Key
 
 Login & setup your API key from here (https://console.groq.com/keys)
 
@@ -68,7 +77,7 @@ os.environ['GROQ_API_KEY'] = 'your_api_key_here'
 
 Replace 'your_api_key_here' with your actual Groq API key.
 
-⚙️ 5. Optional Configuration
+### ⚙️ 5. Optional Configuration
 
 In util.py, you may also edit:
 
@@ -76,7 +85,7 @@ def scrape_reviews(url, start=1, pages=10):
 
 To change how many pages of reviews you want to scrape.
 
-▶️ Running the App
+## ▶️ Running the App
 
 Run the Streamlit app from the terminal:
 
@@ -90,7 +99,7 @@ Competitor Analysis Dashboard: Compare two restaurants.
 
 ![Main_Dashboard](https://github.com/user-attachments/assets/d64e6af3-fbcf-4ca0-804f-2deb332df196)
 
-🖼️ Output
+### 🖼️ Output
 
 The Reviews Dashboard will save a .json file with categorized review data and would display the colour-coded reviews on the streamlit dashboard.
 
@@ -105,7 +114,7 @@ The Competitor Analysis page will generate a .jpg line chart comparing average r
 ![Competitor_Analysis_Output_Image](https://github.com/user-attachments/assets/0cd2e8f9-0757-427f-a613-3c95ca9632f5)
 ![Competitor_Analysis](https://github.com/user-attachments/assets/5a11a964-b150-4811-bb64-3257dbc0e76a)
 
-📌 Notes
+## 📌 Notes
 
 This app is specifically built for OpenTable review URLs.
 
@@ -113,6 +122,6 @@ Selenium is used for dynamic scraping — make sure Chrome is installed and chro
 
 All logic is modularized inside util.py to simplify maintenance and upgrades.
 
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
