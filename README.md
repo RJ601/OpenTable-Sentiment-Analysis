@@ -99,19 +99,25 @@ Competitor Analysis Dashboard: Compare two restaurants.
 
 ![Main_Dashboard](https://github.com/user-attachments/assets/d64e6af3-fbcf-4ca0-804f-2deb332df196)
 
+
 ### 🖼️ Output
 
 The Reviews Dashboard will save a .json file with categorized review data and would display the colour-coded reviews on the streamlit dashboard.
 
 ![Reviews_Dashbard_Form](https://github.com/user-attachments/assets/ade8d04b-9f7b-4325-9afc-9ab7c5c3180b)
+
 ![image](https://github.com/user-attachments/assets/136a2d08-1db1-4e4b-a938-6a1b3a39e594)
+
 ![Reviews_Dashbard](https://github.com/user-attachments/assets/70355e55-3068-424c-9b61-91e296ee85fc)
+
 ![Reviews_Dashbard_2](https://github.com/user-attachments/assets/1706cbb3-bef6-4a52-9655-f94c22f25e03)
 
 The Competitor Analysis page will generate a .jpg line chart comparing average ratings over time.
 
 ![Competitor_Analysis_Dashbard_Form](https://github.com/user-attachments/assets/c6738381-c1c0-49a7-9587-5e2524ef9478)
+
 ![Competitor_Analysis_Output_Image](https://github.com/user-attachments/assets/0cd2e8f9-0757-427f-a613-3c95ca9632f5)
+
 ![Competitor_Analysis](https://github.com/user-attachments/assets/5a11a964-b150-4811-bb64-3257dbc0e76a)
 
 ## 📌 Notes
