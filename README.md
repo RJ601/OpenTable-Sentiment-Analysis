@@ -10,7 +10,7 @@ Skills: Web Scrapping, Prompt Engineering, Streamlit, Matplotlib
 ## 🧠 Key Features
 
 - 🔍 **Review Dashboard**:  
-  Scrape reviews of a single restaurant and analyze sentiment on food and staff.
+  Scrape reviews of a single restaurant, separate comments on food and staff and analyze sentiment on food and staff.
   
 - 📊 **Competitor Analysis**:  
   Compare average ratings between two restaurants using visual graphs.
@@ -42,8 +42,8 @@ restaurant-review-analyzer/
 
 ### 🔁 1. Clone the Repository
 
-git clone https://github.com/your-username/restaurant-review-analyzer.git
-cd restaurant-review-analyzer
+git clone https://github.com/RJ601/OpenTable-Sentiment-Analysis.git
+cd OpenTable-Sentiment-Analysis
 
 🧪 2. Create a Virtual Environment (optional but recommended)
 python -m venv env
@@ -73,9 +73,19 @@ You’ll see a sidebar with the following options:
 Reviews Dashboard: Analyze one restaurant.
 Competitor Analysis Dashboard: Compare two restaurants.
 
+![Main_Dashboard](https://github.com/user-attachments/assets/d64e6af3-fbcf-4ca0-804f-2deb332df196)
+
 🖼️ Output
 The Reviews Dashboard will save a .json file with categorized review data and would display the colour-coded reviews on the streamlit dashboard.
+![Reviews_Dashbard_Form](https://github.com/user-attachments/assets/ade8d04b-9f7b-4325-9afc-9ab7c5c3180b)
+![image](https://github.com/user-attachments/assets/136a2d08-1db1-4e4b-a938-6a1b3a39e594)
+![Reviews_Dashbard](https://github.com/user-attachments/assets/70355e55-3068-424c-9b61-91e296ee85fc)
+![Reviews_Dashbard_2](https://github.com/user-attachments/assets/1706cbb3-bef6-4a52-9655-f94c22f25e03)
+
 The Competitor Analysis page will generate a .jpg line chart comparing average ratings over time.
+![Competitor_Analysis_Dashbard_Form](https://github.com/user-attachments/assets/c6738381-c1c0-49a7-9587-5e2524ef9478)
+![Competitor_Analysis_Output_Image](https://github.com/user-attachments/assets/0cd2e8f9-0757-427f-a613-3c95ca9632f5)
+![Competitor_Analysis](https://github.com/user-attachments/assets/5a11a964-b150-4811-bb64-3257dbc0e76a)
 
 📌 Notes
 This app is specifically built for OpenTable review URLs.
