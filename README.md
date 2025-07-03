@@ -26,15 +26,15 @@ Skills: Web Scrapping, Prompt Engineering, Streamlit, Matplotlib
 ## 🗂️ Project Structure
 
 restaurant-review-analyzer/
-│
-├── Dashboard.py # Landing page with sidebar navigation
-├── pages
-    ├── 1_Reviews_Dashboard.py # Single restaurant review dashboard
-    ├── 2_Competitor_Analysis_Dashboard.py # Compare two restaurants
-├── util.py # Core logic: scraping, prompting, formatting
-├── requirements.txt # (You generate this using pip freeze)
-├── LICENSE
-└── README.md # Project instructions (you are here)
+|
+|-- Dashboard.py # Landing page with sidebar navigation
+|-- pages
+    |-- 1_Reviews_Dashboard.py # Single restaurant review dashboard
+    |-- 2_Competitor_Analysis_Dashboard.py # Compare two restaurants
+|-- util.py # Core logic: scraping, prompting, formatting
+|-- requirements.txt # (You generate this using pip freeze)
+|-- LICENSE
+|-- README.md # Project instructions (you are here)
 
 ---
 
@@ -43,14 +43,17 @@ restaurant-review-analyzer/
 ### 🔁 1. Clone the Repository
 
 git clone https://github.com/RJ601/OpenTable-Sentiment-Analysis.git
+
 cd OpenTable-Sentiment-Analysis
 
 🧪 2. Create a Virtual Environment (optional but recommended)
 python -m venv env
+
 source env/bin/activate  # On Windows: env\Scripts\activate
 
 📦 3. Install Dependencies
 Install the required packages using:
+
 pip install -r requirements.txt
 
 🔑 4. Set Up Groq API Key
